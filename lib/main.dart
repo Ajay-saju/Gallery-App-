@@ -4,7 +4,6 @@ import 'package:my_gallery/adaptors/gallery_model.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'myHomeScreen.dart/myHomeScreen.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.green,
         fontFamily: 'Georgia',
       ),
       home: const MyHomeScreen(),
